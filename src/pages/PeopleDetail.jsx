@@ -23,6 +23,12 @@ const PeopleDetail = () => {
           <h4 className="d-flex justify-content-start font-weight-bold">
             {person?.gender}
           </h4>
+          <h4 className="d-flex justify-content-start font-weight-bold">
+            Hair color: {person?.hair_color}
+          </h4>
+          <h4 className="d-flex justify-content-start font-weight-bold">
+            Eye color: {person?.eye_color}
+          </h4>
         </main>
       </div>
     </>

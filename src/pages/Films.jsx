@@ -12,7 +12,7 @@ const Films = () => {
   }, []);
   return (
     <div id="Films">
-        <Navbar />
+
       <main className="container-fluid" >
         <section className="row justify-content-center">
           <div className="">

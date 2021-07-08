@@ -5,12 +5,13 @@ import Films from './pages/Films';
 import People from './pages/People';
 import FilmDetail from './pages/FilmDetail';
 import PeopleDetail from './pages/PeopleDetail';
+import Navbar from './components/Navbar'
 // import Navbar from './components/Navbar';
 
 const App = () => {
 return (
     <BrowserRouter>
-        {/* <Navbar /> */}
+        <Navbar />
         <Switch>
             <Route exact path='/'>
                 <Home />

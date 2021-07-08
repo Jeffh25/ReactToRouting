@@ -11,7 +11,7 @@ const [people, setPeople] = useState([])
     }, [])
     return(
         <div id='people'>
-            <Navbar />
+
          <main className="container" >
         <section className="row justify-content-center">
           <div className="">

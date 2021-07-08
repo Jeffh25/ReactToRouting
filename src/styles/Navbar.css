@@ -1,0 +1,29 @@
+.nav {
+    align-content: center;
+}
+#navbar {
+    background: url(./rsz_21be3fa055bc863ae4d4db3b30da624798.png)
+    fixed;
+     background-position-x: 0px;
+     background-position-y: -5px;
+     background-repeat: no-repeat;
+     background-size: 100vw 75px;
+     height: 8.5vh;
+     width: 100vw;
+    border-bottom: 5px solid transparent;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: -10px;
+    /* background-size: cover; */
+}
+#navbarUl{
+    display: flex;
+    justify-content: flex-end;
+    align-content:inherit;
+}
+.theOne{
+    margin-right: 2rem;
+    color: transparent !important;
+     -webkit-text-stroke: 1.5px black;
+     font-size: 40px;
+}
